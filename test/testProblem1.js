@@ -7,11 +7,8 @@
 
 const inventoryArr = require("../name.js").inventory;
 const prob1 =require("../probem1.js");
-var computedValue=[];
+
 computedValue=prob1.carDetails(inventoryArr);
-var entry=Object.entries(computedValue);
-
-
-console.log("problem1");
-//console.log("Car 33 is a " , valueFinal[0] , "  " , valueFinal[1] ,"  " , "cmodel");
-console.log("Car 33 is a" ,entry[0][1], "" ,entry[1][1],"" ,entry[2][1]);
+//var entry=Object.entries(computedValue);
+//console.log("Car 33 is a" ,entry[0][1], "" ,entry[1][1],"" ,entry[2][1]);
+console.log("Car 33 is a" ,computedValue[0], "" ,computedValue[1],"" ,computedValue[2]);

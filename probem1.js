@@ -5,16 +5,16 @@
 // "Car 33 is a *car year goes here* *car make goes here* *car model goes here*"
 
 exports.carDetails = function (inventoryArr) {
-    var res1 = [];
-    for (i = 0; i < inventoryArr.length; i++) 
+    let res1 = [];
+    for (let i = 0; i < inventoryArr.length; i++) 
     {
         if (inventoryArr[i].id == 33) 
         {
-            var year = inventoryArr[i].car_year;
+            let year = inventoryArr[i].car_year;
             res1.push(year);
-            var cmake = inventoryArr[i].car_make;
+            let cmake = inventoryArr[i].car_make;
             res1.push(cmake);
-            var cmodel = inventoryArr[i].car_model;
+            let cmodel = inventoryArr[i].car_model;
             res1.push(cmodel);
         }
     }
